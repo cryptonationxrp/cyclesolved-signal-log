@@ -1,0 +1,12 @@
+{
+ "counts": {
+  "resolved": 13,
+  "shown": 16,
+  "unscanned": 0
+ },
+ "day": "2026-11-13",
+ "events": "readable at https://cyclesolved.com/api/setups/log from the next UTC day; a day sealed before the setup pages are released becomes readable on the day they are released (amendment 2, 27 October 2026)",
+ "hash": "ff27929ed259d08ad4ad859f63d09e4f15bc2f4a18d53bd6614baca5be289d9a",
+ "prev_hash": "3ca3124b5b73f3aaa298562bf9e2be29f9dafaed2fc895da61f06b71d2f12125",
+ "rule": "hash = sha256(prev_hash + canonical(events)), hex; prev_hash '' on the first day. canonical = json.dumps(events, sort_keys=True, separators=(',', ':'), ensure_ascii=False), UTF-8 (Python)."
+}
