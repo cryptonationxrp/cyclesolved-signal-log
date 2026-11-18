@@ -1,0 +1,12 @@
+{
+ "counts": {
+  "bases": 30,
+  "issued": 1000,
+  "resolved": 1000
+ },
+ "day": "2026-11-17",
+ "events": "kept in our database; readable when the setup feed is released",
+ "hash": "fe0c4dff9bb88f558c31411bbfa8ab04ffce8dfa5a2f30d9be360682a84d82c4",
+ "prev_hash": "b1753bd1dfd410187592c9fb95912f78817c68298a808edbc6684c862a357d08",
+ "rule": "hash = sha256(prev_hash + canonical(events)), hex; prev_hash '' on the first day. canonical = json.dumps(events, sort_keys=True, separators=(',', ':'), ensure_ascii=False), UTF-8 (Python)."
+}
