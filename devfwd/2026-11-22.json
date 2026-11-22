@@ -1,0 +1,16 @@
+{
+ "coins": "kept in our database and volume; the hash covers them",
+ "counts": {
+  "covered": 26,
+  "rest": 0,
+  "top": 0
+ },
+ "date": "2026-11-22",
+ "excluded": {
+  "no_first_seen": 3,
+  "not_covered": 78
+ },
+ "hash": "a3d56bfbecc6272d7d47c2f074d8a9b4fdff6d7ff1665ff2f41dc5e216f631e2",
+ "prev_hash": "25de975f94b30cc9787923a3ac299e65ddbff1305f305a1ecc51363df16b920f",
+ "registration_sha256": "bf0429a55267f453864526db9344d9f1f0e6e45314c34cbbc546efee7dd4aeb1"
+}
